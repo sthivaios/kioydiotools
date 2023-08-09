@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: hsla(60, 29%, 77%, 0.979);
+}
+
+h3{
+    font-family: Verdana, Arial;
+}
+
+#privdiv{
+    font-family: Verdana, Arial;
+    font-size: smaller;
+    font-weight: bold;
+    padding: 10px;
+    background-color: hsla(60, 29%, 65%, 0.979);
+}
+
+#back{
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+}
+
+#back:hover{
+    animation:buttonout 0.1s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes buttonout {
+    0%{box-shadow: none;}
+
+    100%{
+        box-shadow: 2px 2px 5px;
+    }
+}
